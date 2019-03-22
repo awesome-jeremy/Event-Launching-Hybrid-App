@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding">
+    <file url="file://$PROJECT_DIR$/src/DAO/BaseDAO.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/filter/EncodingFilter.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/listener/Listener.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/utilities/TimeStampRandom_forFileName.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/utilities/timeArray.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/utilities/utility.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/web/META-INF" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/web/examples" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/web/info" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/web/jquery.mobile-1.4.5" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/web/useless/forms.html" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/web/useless/index2.html" charset="UTF-8" />
+    <file url="PROJECT" charset="UTF-8" />
+  </component>
+</project>

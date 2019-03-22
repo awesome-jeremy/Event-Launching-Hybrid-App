@@ -1,0 +1,14 @@
+<component name="libraryTable">
+  <library name="jquery.mobile-1.4.5.js" type="javaScript">
+    <properties>
+      <sourceFilesUrls>
+        <item url="file://$PROJECT_DIR$/../jquery.mobile-1.4.5/jquery.mobile-1.4.5.js" />
+      </sourceFilesUrls>
+    </properties>
+    <CLASSES>
+      <root url="file://$PROJECT_DIR$/../jquery.mobile-1.4.5/jquery.mobile-1.4.5.js" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

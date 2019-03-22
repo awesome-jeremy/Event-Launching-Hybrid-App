@@ -1,0 +1,107 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+    <title>nativeDroid II - jQueryMobile Template</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"/>
+
+    <link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.3.0/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="http://ajax.googleapis.com/ajax/libs/jquerymobile/1.4.5/jquery.mobile.min.css"/>
+    <link rel="stylesheet" href="../vendor/waves/waves.min.css"/>
+    <link rel="stylesheet" href="../css/nativedroid2.css"/>
+
+
+</head>
+<body>
+
+<div data-role="page">
+
+    <nd2-include data-src="examples/fragments/panel.left.html"></nd2-include>
+
+
+    <div data-role="header" data-position="fixed">
+        <a href="#leftpanel" class="ui-btn ui-btn-left"><i class="zmdi zmdi-menu"></i></a>
+        <h1>Cards</h1>
+    </div>
+
+    <div role="main" class="ui-content" data-inset="false">
+
+
+        <!-- Simple Card with Title !-->
+
+        <div class="nd2-card">
+
+            <div class="card-title has-avatar">
+                <img class="card-avatar" src="//lorempixel.com/200/200/people/9/">
+                <h3 class="card-primary-title">Power of Lavender</h3>
+                <h5 class="card-subtitle">Taken in Provence, France</h5>
+            </div>
+
+            <a href="#">
+                <div class="card-media">
+                    <img src="../image/activity3.jpg">
+                </div>
+            </a>
+
+
+            <div class="card-supporting-text has-action">
+                <strong>Lavandula</strong> (common name lavender) is a genus of 39 known species of flowering plants in
+                the mint family, Lamiaceae. It is native to the Old World and is found from Cape Verde and the Canary
+                Islands, southern Europe across to northern and eastern Africa, the Mediterranean, southwest Asia to
+                southeast India.
+            </div>
+
+            <div class="card-action">
+                <div class="row between-xs">
+                    <div class="col-xs-6">
+                        <div class="box">
+                            <a href="#" class="ui-btn ui-btn-inline ui-btn-fab"><i class='zmdi zmdi-favorite'></i></a>
+                            <a href="#" class="ui-btn ui-btn-inline ui-btn-fab"><i class='zmdi zmdi-bookmark'></i></a>
+                            <a href="#" class="ui-btn ui-btn-inline ui-btn-fab"><i
+                                    class='zmdi zmdi-mail-reply zmd-flip-horizontal'></i></a>
+                        </div>
+                    </div>
+                    <div class="col-xs-6 align-right">
+                        <div class="box">
+                            <a href="#" class="ui-btn ui-btn-inline">����</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+
+    </div>
+
+    <div data-role="footer" data-position="fixed">
+        <div data-role="navbar">
+            <ul>
+                <li><a href="#" data-icon="home">��ҳ</a></li>
+                <li><a href="#" data-icon="calendar">֪ͨ</a></li>
+                <li><a href="#" data-icon="heart">����1</a></li>
+                <li><a href="#" data-icon="user">�ҵ�</a></li>
+
+            </ul>
+        </div>
+    </div>
+
+</div>
+
+
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+<script src="http://code.jquery.com/ui/1.11.4/jquery-ui.min.js"></script>
+<script src="http://ajax.googleapis.com/ajax/libs/jquerymobile/1.4.5/jquery.mobile.min.js"></script>
+<script src="../vendor/waves/waves.min.js"></script>
+<script src="../js/nativedroid2.js"></script>
+<script src="nd2settings.js"></script>
+
+
+<!--<script>-->
+<!--navigator.geolocation.getCurrentPosition();-->
+
+
+<!--$("#location").html(position.coords.latitude.toString());-->
+<!--</script>-->
+
+</body>
+</html>

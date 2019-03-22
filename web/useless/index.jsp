@@ -1,0 +1,120 @@
+<%@ page contentType="text/html;charset=UTF-8" language="java" %>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>jqm</title>
+  <link rel="stylesheet" href="../jquery.mobile-1.4.5/jquery.mobile-1.4.5.css"/>
+  <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
+</head>
+<body>
+<div data-role="page" id="index">
+  <div data-role="header" data-position="fixed">
+    <h1>title1</h1>
+
+  </div>
+
+  <div role="main" class="ui-content">
+    <!--<a class="ui-btn ui-btn-b ui-corner-all">李天艳</a>-->
+    <a href="#" class="ui-btn ui-btn-b ui-corner-all" id="button1">加载</a>
+    <h1 id="jqmAjaxTest">asd</h1>
+    <ul data-role="listview" data-inset="true ">
+      <li>
+        <a href="#" data-icon="camera">
+          <h2>G1次</h2>
+          <p>北京南-上海虹桥</p>
+          <p>用时 4：48</p>
+          <p class="ui-li-aside">9:00 开</p>
+        </a>
+      </li>
+      <li><a href="#" data-icon="camera">导航2</a></li>
+      <li><a href="#" data-icon="camera">导航3</a></li>
+      <li><a href="#" data-icon="camera">导航4</a></li>
+
+    </ul>
+
+    <table data-role="table" data-mode="flow" class="ui-responsive table-stroke">
+      <thead>
+      <tr>
+        <th>列1</th>
+        <th>列2</th>
+        <th>列3</th>
+        <th>列4</th>
+        <th>列5</th>
+      </tr>
+      </thead>
+      <tbody>
+      <tr>
+        <td>123</td>
+        <td>456</td>
+        <td>789</td>
+        <td>712</td>
+        <td>341</td>
+      </tr>
+      <tr>
+        <td>123</td>
+        <td>456</td>
+        <td>789</td>
+        <td>712</td>
+        <td>341</td>
+      </tr>
+      <tr>
+        <td>123</td>
+        <td>456</td>
+        <td>789</td>
+        <td>712</td>
+        <td>341</td>
+      </tr>
+      <tr>
+        <td>123</td>
+        <td>456</td>
+        <td>789</td>
+        <td>712</td>
+        <td>341</td>
+      </tr>
+      </tbody>
+    </table>
+    <form>
+      <div class="ui-field-contain">
+        <label>姓名</label>
+        <input type="text" placeholder="name">
+        <label>年龄</label>
+        <input type="text" placeholder="age">
+      </div>
+
+    </form>
+  </div>
+  <div data-role="footer" data-position="fixed">
+    <div data-role="navbar">
+      <ul>
+        <li><a href="#" data-icon="carat-u">导航1</a></li>
+        <li><a href="#" data-icon="carat-d">导航2</a></li>
+        <li><a href="#" data-icon="carat-l">导航1</a></li>
+        <li><a href="#" data-icon="carat-r">导航1</a></li>
+
+      </ul>
+    </div>
+  </div>
+</div>
+
+<script src="http://code.jquery.com/jquery-1.11.1.min.js"></script>
+<script src="../jquery.mobile-1.4.5/jquery.mobile-1.4.5.js"></script>
+<%--<script type="text/javascript">--%>
+
+    <%--$(document).on("pageinit","#index",function () {--%>
+        <%--$("#button1").on("click", function () {--%>
+            <%--$.mobile.loading("show");--%>
+            <%--$.get("ajax.do", {}, function (data) {--%>
+                <%--var rec = data.toString();--%>
+                <%--$("#jqmAjaxTest").html(rec);--%>
+            <%--});--%>
+            <%--$.mobile.loading("hide");--%>
+        <%--});--%>
+    <%--});--%>
+
+<%--</script>--%>
+
+
+
+
+</body>
+</html>
