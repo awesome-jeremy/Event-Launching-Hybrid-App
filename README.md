@@ -36,7 +36,7 @@ This is hybrid app that can both run on the browser and your Android devices(did
 
 #### **Events Exploring:**
 
-![img](https://internal-api-space.larksuite.com/space/api/box/stream/download/asynccode/?code=5dedd8541c501b37a39de3abf82c5b5c_8f118824ce50c961_boxusWpGQBP1j3wxSQNJn0iiBxc_LDizscgL022AP1dMbWtDDvNfSDElumZ0)
+<img src="https://internal-api-space.larksuite.com/space/api/box/stream/download/asynccode/?code=5dedd8541c501b37a39de3abf82c5b5c_8f118824ce50c961_boxusWpGQBP1j3wxSQNJn0iiBxc_LDizscgL022AP1dMbWtDDvNfSDElumZ0" alt="img" style="zoom:25%;" />
 
 
 
@@ -44,7 +44,7 @@ This is hybrid app that can both run on the browser and your Android devices(did
 
 
 
-#### Event Launching**
+#### Event Launching
 
 ![img](https://internal-api-space.larksuite.com/space/api/box/stream/download/asynccode/?code=fce04d5e505830c378871f467c696dcc_8f118824ce50c961_boxusQ6XseItTy0iJANzZfKXwUd_30LIcwYVzB9uJMWS6cOUbHDacZvMiDOO)
 
