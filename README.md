@@ -4,7 +4,7 @@
 
 ## Statement
 
-This is hybrid app that can both run on the browser and your Android devices(did not implement for IOS, but ideally feasible). To be more specific, same operation should be doable on both platforms. Take 'uploading images' function as example, the code for web could simply be `<input type='file'/>`, but it won't work for Android Framework, so it is the tricky part, it needs to call the API of Android platform. But nowadays there are several powerful frameworks such as [Flutter](https://flutter.dev/) which could easily address such problems.
+This is hybrid app that can both run on the browser and your Android devices(did not implement for IOS, but ideally feasible). To be more specific, same operation should be doable on both platforms. Take 'uploading images' function as example, the code for web could simply be `<input type='file'/>`, but it won't work for Android Framework, so it is the tricky part, it needs to call the API of Android platform. But nowadays there are several powerful frameworks such as [Flutter](https://flutter.dev/) or [React Native](https://reactnative.dev/) which could easily address such problems.
 
 
 
