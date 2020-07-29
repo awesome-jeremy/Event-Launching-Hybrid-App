@@ -36,7 +36,7 @@ This is hybrid app that can both run on the browser and your Android devices(did
 
 #### **Events Exploring:**
 
-<img src="demo_image/1.png" alt="1" style="zoom:25%;" />
+![1](demo_image/1.png)
 
 
 
